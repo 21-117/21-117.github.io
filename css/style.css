@@ -60,7 +60,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 
 /* section - portfolio */
 #portfolio{width:1200px; height:960px; margin:0 auto;}
-#portfolio>h2{margin-bottom:20px; padding-top:200px; font-size:70px; font-weight:500; color:#425a73; letter-spacing:1px; text-align:center;}
+#portfolio>h2{margin-bottom:20px; padding-top:200px; font-size:70px; font-weight:500; color:#00000; letter-spacing:1px; text-align:center;}
 #portfolio>.container>.mnu{width:946px; margin:0 auto 20px;}
 #portfolio>.container>.mnu>li{float:left; margin-left:20px; font-size:20px;}
 #portfolio>.container>.mnu>li:first-child{margin-left:0;}
@@ -83,9 +83,30 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
   font-size:16px; font-size:500; color:#425a73; background-color:#fff; border:1px solid #425a73; border-radius:5px; transition:all 0.4s;}
 #portfolio>.container>.view>li>a:hover,#portfolio>.container>.view>li>a:focus{color:#fff; background-color:#425a73;}
 
+/* section - skills */
+#skills{width:1200px; height:400px; margin:0 auto;}
+#skills>h2{margin-bottom:50px; font-size:70px; font-weight:500; color:#00000; letter-spacing:1px; text-align:center;}
+#skills>h2:first-child{padding-top:150px;}
+#skills>.skill{width:320px; margin:0 auto 100px;}
+#skills>.skill>li{float:left; height:64px; margin-left:20px; text-indent:-9999px;}
+#skills>.skill>li:nth-child(1){margin-left:0; width:64px; background-image:url(../images/cSharp.png);}
+#skills>.skill>li:nth-child(2){width:64px; background-image:url(../images/c.png);}
+#skills>.skill>li:nth-child(3){width:64px; background-image:url(../images/java.png);}
+#skills>.skill>li:nth-child(4){width:64px; background-image:url(../images/python.png);}
+
+#skills>.tool{width:645px; margin:0 auto;}
+#skills>.tool>li{float:left; width:64px; height:64px; margin-left:20px; text-indent:-9999px;}
+#skills>.tool>li:nth-child(1){margin-left:0; background-image:url(../images/skills_tool_1.png);}
+#skills>.tool>li:nth-child(2){background-image:url(../images/figma.png);}
+#skills>.tool>li:nth-child(3){background-image:url(../images/au.png);}
+#skills>.tool>li:nth-child(4){background-image:url(../images/effects.png);}
+#skills>.tool>li:nth-child(5){background-image:url(../images/pro.png);}
+#skills>.tool>li:nth-child(6){background-image:url(../images/ps.png);}
+#skills>.tool>li:nth-child(7){background-image:url(../images/html.png);}
+
 /* section - contact */
 #contact{position:relative; overflow:hidden; width:100%; height:860px;}
-#contact>h2{position:absolute; right:55%; top:200px; margin-right:-450px; margin-bottom:20px; font-size:70px; font-weight:500; color:#425a73; letter-spacing:1px; text-align:center;}
+#contact>h2{position:absolute; right:55%; top:200px; margin-right:-450px; margin-bottom:20px; font-size:70px; font-weight:500; color:#00000; letter-spacing:1px; text-align:center;}
 #contact>.contact_img{position:absolute; right:55%; top:300px; margin-right:-985px; width:800px; height:375px; background-image:url(../images/ct_banner.jpg);}
 
 #contact>.container{position:absolute; top:50%; left:50%; margin-left:-400px; margin-top:-90px; text-align:center;}
